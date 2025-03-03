@@ -1,0 +1,72 @@
+.section2{
+    height: 75vh;
+    border:1px solid black;
+    margin-top: 4%;
+}
+.section2-btn{
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 580;
+    background-color: rgb(235, 218, 252);
+    color: rgb(95, 8, 176);
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+    height: 20%;
+    border: 1px solid black;
+    width: 70%;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(97, 92, 92);
+}
+.section2-box,.about-dec{
+    height: 40%;
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #2A2838;
+   margin-top: 3%;
+   border-radius: 9px;
+}
+.box-img{
+    height: 70%;
+    width: 13%;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-left: 4%;
+}
+.section2-box .data{
+    font-size: 1.2rem;
+    margin-left: 2%;
+    color: #a9b0ba;
+}
+.section2-box .data h5{
+    font-size: 1.1rem;
+    color: rgb(108, 104, 104);
+}
+.about-dec{
+    color: rgba(245, 245, 245, 0.871);
+    background-color: black;
+    text-align: start;
+    align-items: start;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 1.7;
+}

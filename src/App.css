@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+ background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ban1-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
 }
+.ban1{
+  height: 60vh;
+}
+.section5-h{
+  height: 70px;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 580;
+    background-color: rgb(235, 218, 252);
+    color: rgb(95, 8, 176);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+ 
+}
+/* .section5-h  h1{
+  color: aliceblue;
+  margin-bottom: 4%;
+ text-align: center;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ban2-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+}
+.ban2{
+  height: 80vh;
+}
+.section5{
+  height: 40vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: aliceblue;
+}
+.section5-main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+}
+.section5-main img{
+  height: 80%;
+}
+.section5 h3{
+  font-size: 1.4rem;
+}
+.section6-header{
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 5%;
+  margin-bottom: 6%;
+  color: aliceblue;
 }
